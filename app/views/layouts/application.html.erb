@@ -10,9 +10,12 @@
 <body>
   <div class ="container" >
     <div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1">
+    
       <%= render 'layouts/header' %>
 
       <%= yield %>
+
+      <%= link_to 'ブログへ', blogs_path %>
 
       <%= render 'layouts/footer' %>
     </div>
